@@ -1,6 +1,6 @@
 # npmtest-imagemin-pngcrush
 
-#### test coverage for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-imagemin-pngcrush.svg)](https://travis-ci.org/npmtest/node-npmtest-imagemin-pngcrush)
+#### basic test coverage for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-imagemin-pngcrush.svg)](https://travis-ci.org/npmtest/node-npmtest-imagemin-pngcrush)
 
 #### pngcrush imagemin plugin
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-imagemin-pngcrush/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-imagemin-pngcrush/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-imagemin-pngcrush/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "5.1.0"
+    "version": "5.1.0",
+    "bin": {}
 }
 ```
 
